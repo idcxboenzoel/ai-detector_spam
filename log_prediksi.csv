@@ -1,8 +1,16 @@
-teks,hasil
-Congratulations! Click here to claim your prize.,SPAM
-WINNER,HAM
-WINNER,HAM
-Help,HAM
-Free entry in 2,SPAM
-Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's,SPAM
-Prize,SPAM 🛑📧
+Text,Prediction
+full address:s:10.0.12.162,HAM
+server port:i:3389,HAM
+username:s:localhost\PSM@7b174a89-f2eb-4e4b-bf3f-6a8d54cf6ae7,HAM
+alternate shell:s:PSM@7b174a89-f2eb-4e4b-bf3f-6a8d54cf6ae7,HAM
+desktopwidth:i:1024,HAM
+desktopheight:i:768,HAM
+screen mode id:i:1,HAM
+redirectdrives:i:0,HAM
+drivestoredirect:s:,HAM
+redirectsmartcards:i:0,HAM
+EnableCredSspSupport:i:0,HAM
+redirectcomports:i:0,HAM
+remoteapplicationmode:i:0,HAM
+use multimon:i:0,HAM
+span monitors:i:0,HAM

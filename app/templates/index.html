@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>Spam Detector</title></head>
+<body>
+  <h1>Spam Detector</h1>
+  <form method="post">
+    <textarea name="text" rows="4" cols="50">{{ text or '' }}</textarea><br><br>
+    <input type="submit" value="Detect">
+  </form>
+  {% if result %}
+    <p><strong>Result:</strong> {{ result }}</p>
+  {% endif %}
+</body>
+</html>

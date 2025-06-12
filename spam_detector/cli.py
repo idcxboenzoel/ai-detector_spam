@@ -53,7 +53,7 @@ def main():
     print("✅ Model dilatih. Akurasi:", accuracy_score(y_test, model.predict(X_test)))
 
     # Prediksi teks
-    def prediksi_email(teks):
+    def classify_text(teks) -> str:
         vektorisasi = vectorizer.transform([teks])
         hasil = model.predict(vektorisasi)
         return "SPAM 🛑📧" if hasil[0] == 1 else "HAM"# Clear log
