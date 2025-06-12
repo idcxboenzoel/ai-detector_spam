@@ -1,0 +1,8 @@
+[program:spam_api]
+command=/path/to/venv/bin/gunicorn main:app -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
+directory=/path/to/spam_detector_project
+user=ubuntu
+autostart=true
+autorestart=true
+stderr_logfile=/var/log/spam_api.err.log
+stdout_logfile=/var/log/spam_api.out.log
